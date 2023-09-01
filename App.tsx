@@ -15,7 +15,6 @@ function App(): JSX.Element {
     // <View style={styles.container}>
     //   <Header>My App</Header>
     //   <Main/>
-    //   <Footer />
     // </View>
     <View>
       <SignUp/>

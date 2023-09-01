@@ -70,7 +70,6 @@ const SignUp = () => {
 />
 
             </View>
-
             <View style={{ alignItems: 'center' }}>
                 <View style={{ top: 60, gap: 10, flexDirection: 'row', left: 30 }}>
                     <View style={{ flex: 1 }}>
@@ -101,10 +100,9 @@ const SignUp = () => {
     );
 };
 
-
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: 'red',
+        backgroundColor: '#ffd482',
         padding: 10,
         borderRadius: 5,
         alignItems: 'center',
@@ -112,8 +110,9 @@ const styles = StyleSheet.create({
         marginTop: 90,
     },
     buttonText: {
-        color: 'white',
+        color: 'black',
         fontSize: 18,
+        fontWeight:'600'
     },
     disabledButton: {
         backgroundColor: 'lightgray',
@@ -140,7 +139,7 @@ const styles = StyleSheet.create({
     },
 
     inputError: {
-        borderColor: 'red', // Set the border color to red for error case
+        borderColor: 'red',
     },
 
 });
